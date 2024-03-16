@@ -1,0 +1,31 @@
+# Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.pyc
+*.log
+*.swp
+*.swo
+media/
+staticfiles/
+local_settings.py
+
+# Svelte
+node_modules/
+public/build/
+.svelte-kit/
+.svelte/
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+*.bak
+*.tmp
+*.tmp.*
+*.log
+*.orig
+.idea/
