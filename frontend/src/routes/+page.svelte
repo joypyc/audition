@@ -14,16 +14,7 @@
             "create": '/inventory/add',
             "add": true,
             "view": true,
-        },
-        {
-            "title": "User Management",
-            "description": "Add new users and assign roles",
-            "list": '/inventory/list',
-            "create": '/inventory/add',
-            "add": true,
-            "view": true,
         }
-        
     ]
 </script>
 

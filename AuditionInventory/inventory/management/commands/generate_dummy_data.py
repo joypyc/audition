@@ -25,7 +25,7 @@ def generate_random_datetime(start_date, end_date):
     delta = end_date - start_date
 
     # Generate a random number of seconds within the time difference
-    random_seconds = random.randint(0, delta.total_seconds())
+    random_seconds = random.randint(0, 60)
 
     # Add the random number of seconds to the start_date to get the random datetime
     random_datetime = start_date + timedelta(seconds=random_seconds)

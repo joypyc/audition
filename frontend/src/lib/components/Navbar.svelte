@@ -36,9 +36,6 @@
           <li class="nav-item">
             <a class="nav-link" href="/inventory/list">Product</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/">User Management</a>
-          </li>
         </ul>
         <form on:submit|preventDefault={logout}>
             <button class="btn btn-outline-success me-2" type="submit">Log out</button>
